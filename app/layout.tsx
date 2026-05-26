@@ -8,14 +8,17 @@ export const metadata: Metadata = {
     template: "%s | ui.anants.studio",
   },
   description:
-    "A clean, searchable shelf of UI inspiration, systems, typography, motion, and design resources curated by Anant.",
+    "A clean directory of UI inspiration, components, color, typography, motion, assets, mockups, channels, and tools curated by Anant.",
+  icons: {
+    icon: "/icon.svg",
+  },
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "ui.anants.studio",
     description:
-      "A clean, searchable shelf of UI inspiration, systems, typography, motion, and design resources curated by Anant.",
+      "A clean directory of UI inspiration, components, color, typography, motion, assets, mockups, channels, and tools curated by Anant.",
     url: "https://ui.anants.studio",
     siteName: "ui.anants.studio",
     type: "website",
@@ -24,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ui.anants.studio",
     description:
-      "A clean, searchable shelf of UI inspiration, systems, typography, motion, and design resources curated by Anant.",
+      "A clean directory of UI inspiration, components, color, typography, motion, assets, mockups, channels, and tools curated by Anant.",
   },
 };
 
@@ -40,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body suppressHydrationWarning>{children}</body>
     </html>
   );
 }
