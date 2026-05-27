@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { DatabuddyTracking } from "@/components/databuddy-tracking";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -43,7 +44,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>
+        {children}
+        <DatabuddyTracking />
+      </body>
     </html>
   );
 }

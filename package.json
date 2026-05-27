@@ -9,6 +9,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@databuddy/sdk": "^2.4.20",
     "lucide-react": "latest",
     "next": "latest",
     "react": "latest",
