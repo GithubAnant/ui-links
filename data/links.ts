@@ -9,6 +9,7 @@ export type LinkCategory =
   | "Mockups"
   | "Channels"
   | "Tools"
+  | "Utilities"
   | "References";
 
 export type UILink = {
@@ -36,6 +37,7 @@ export const categoryOrder: LinkCategory[] = [
   "Mockups",
   "Channels",
   "Tools",
+  "Utilities",
   "References",
 ];
 
@@ -523,6 +525,97 @@ export const uiLinks: UILink[] = [
     added: "2026-05-27",
   },
   {
+    id: "transitions",
+    title: "Transitions",
+    url: "https://transitions.dev",
+    category: "Utilities",
+    description: "A focused reference for polished UI transitions, animation ideas, and interaction timing.",
+    tags: ["transitions", "motion", "animation"],
+    added: "2026-05-30",
+  },
+  {
+    id: "serif",
+    title: "Serif",
+    url: "https://www.serif.sh",
+    category: "Utilities",
+    description: "Clean card-making tool for turning ideas, quotes, and launch notes into polished visuals.",
+    tags: ["cards", "graphics", "social"],
+    added: "2026-05-30",
+  },
+  {
+    id: "refero-styles",
+    title: "Refero Styles",
+    url: "https://styles.refero.design",
+    category: "Utilities",
+    description: "Colors, typography, spacing, and components extracted from strong websites.",
+    tags: ["style", "typography", "components", "ai"],
+    featured: true,
+    added: "2026-05-27",
+  },
+  {
+    id: "brandfetch",
+    title: "Brandfetch",
+    url: "https://brandfetch.com",
+    category: "Utilities",
+    description: "Fetch brand logos, colors, fonts, and company assets without digging through press kits.",
+    tags: ["brand", "logos", "assets"],
+    added: "2026-05-30",
+  },
+  {
+    id: "animography",
+    title: "Animography",
+    url: "https://animography.net",
+    category: "Utilities",
+    description: "Animated typefaces and kinetic typography assets for motion-forward design work.",
+    tags: ["animated-fonts", "motion", "type"],
+    added: "2026-05-30",
+  },
+  {
+    id: "whirrls",
+    title: "Whirrls",
+    url: "https://www.whirrls.com",
+    category: "Utilities",
+    description: "Hand-drawn SVG elements and rough-edged graphics for adding human texture.",
+    tags: ["svg", "hand-drawn", "graphics"],
+    added: "2026-05-30",
+  },
+  {
+    id: "world-in-dots",
+    title: "World in Dots",
+    url: "https://www.worldindots.com",
+    category: "Utilities",
+    description: "Generate dot-based world maps for data visuals, decks, and editorial layouts.",
+    tags: ["maps", "dots", "generator"],
+    added: "2026-05-30",
+  },
+  {
+    id: "space-type-generator",
+    title: "Space Type Generator",
+    url: "https://spacetypegenerator.com",
+    category: "Utilities",
+    description: "Experimental space-style type generator for warped, dimensional, and poster-like typography.",
+    tags: ["typography", "generator", "experimental"],
+    added: "2026-05-30",
+  },
+  {
+    id: "the-svg",
+    title: "The SVG",
+    url: "https://thesvg.org",
+    category: "Utilities",
+    description: "SVG marketplace for icons, illustrations, and small graphics that can drop into design work.",
+    tags: ["svg", "marketplace", "assets"],
+    added: "2026-05-30",
+  },
+  {
+    id: "get-design",
+    title: "GetDesign.md",
+    url: "https://getdesign.md",
+    category: "Utilities",
+    description: "Generate a design.md file for any company so AI agents can reference its visual system.",
+    tags: ["ai", "design-system", "brand"],
+    added: "2026-05-30",
+  },
+  {
     id: "laws-of-ux",
     title: "Laws of UX",
     url: "https://lawsofux.com",
@@ -538,16 +631,6 @@ export const uiLinks: UILink[] = [
     category: "References",
     description: "Small, memorable interaction details collected from around the web.",
     tags: ["details", "interactions", "inspiration"],
-    added: "2026-05-27",
-  },
-  {
-    id: "refero-styles",
-    title: "Refero Styles",
-    url: "https://styles.refero.design",
-    category: "References",
-    description: "Colors, typography, spacing, and components extracted from strong websites.",
-    tags: ["style", "typography", "components", "ai"],
-    featured: true,
     added: "2026-05-27",
   },
 ];
