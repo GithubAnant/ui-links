@@ -110,6 +110,15 @@ export const uiLinks: UILink[] = [
     added: "2026-05-27",
   },
   {
+    id: "collect-ui",
+    title: "Collect UI",
+    url: "https://collectui.com",
+    category: "Inspiration",
+    description: "Daily UI inspiration and interface ideas collected from designers across the web.",
+    tags: ["ui", "inspiration", "patterns"],
+    added: "2026-06-01",
+  },
+  {
     id: "origin-ui",
     title: "Origin UI",
     url: "https://originui.com",
