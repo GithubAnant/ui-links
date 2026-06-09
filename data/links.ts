@@ -642,4 +642,13 @@ export const uiLinks: UILink[] = [
     tags: ["details", "interactions", "inspiration"],
     added: "2026-05-27",
   },
+  {
+    id: "selected-site",
+    title: "Selected Site",
+    url: "https://selected.site",
+    category: "References",
+    description: "Curated collection of the best tools, resources, and inspiration for creators and builders.",
+    tags: ["curated", "tools", "resources", "inspiration"],
+    added: "2026-06-09",
+  },
 ];
