@@ -651,4 +651,14 @@ export const uiLinks: UILink[] = [
     tags: ["curated", "tools", "resources", "inspiration"],
     added: "2026-06-09",
   },
+  {
+    id: "beautiful-ui",
+    title: "Beautiful UI",
+    url: "https://beautiful-ui-five.vercel.app/",
+    category: "Components",
+    description:
+      "Crafted UI primitives for AI-native interfaces, including loading, thinking, streaming, approval, tool, task, chat, prompt, recommendation, context, table, navigation, search, insight, code, fine-tune, and selection components.",
+    tags: ["ai", "components", "interfaces", "primitives"],
+    added: "2026-08-11",
+  },
 ];
